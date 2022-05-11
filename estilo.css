@@ -1,0 +1,80 @@
+.boton{
+	background: yellow;
+	color: black;
+}
+.Hola{
+	color: blue;
+	font-size: 40px;
+}
+.caja1, .caja2{
+	width: 45%;
+	float: left;
+	border: 2px solid black;
+	height: 400px;
+}
+.caja3,.caja4, .caja5{
+	width: 30%;
+	float: left;
+	border: 2px solid black;
+	height: 400px;
+}
+.caja1{
+	background: lightblue;
+}
+.caja2{
+	background: coral;
+}
+.caja3{
+	background: greenyellow;
+}
+.caja4{
+	background: steelblue;
+}
+.caja5{
+	background: darkcyan;
+}
+@media(max-width: 1000px)
+{
+.boton{
+	background: purple;
+	color: #fff;
+}
+.Hola{
+	color: green;
+}
+
+@media(max-width: 500px)
+{
+.boton{
+	background: royalblue;
+	color: #fff;
+}
+.Hola{
+	color: red;
+	font-size: 20px;
+}
+.caja1, .caja2, .caja3, .caja4, .caja5{
+	width: 100%;
+}
+}
+@media(max-width: 700px) and (min-width: 500px)
+{
+.boton{
+	background: steelblue;
+	color: #fff;
+}
+}
+@media(max-width: 800px) and (min-width: 500px)
+{
+	.Hola{
+	color: orange;
+}
+}
+@media print{
+	.Hola{
+		font-size: 140px;
+	}
+	.boton{
+		display: none;
+	}
+}
